@@ -1,0 +1,222 @@
+body{
+	overflow-x: hidden;
+}
+#wrapper{
+	height:
+}
+#event-overlay{
+	display: block;
+	visibility: hidden;
+	position: absolute;
+	z-index: 3;
+	top: 0%;
+	left: 0%;
+	height: 180%;
+	width: 100%;
+	background: rgba(0, 0, 0, .75);
+}
+/*css for the upper region of the management homepage*/
+
+#upper-region{
+	width: 100%;
+	padding: 0px 0px 40px 15%;
+}
+#upper-region-background{
+	width: auto;
+	height: 100%;
+	position: fixed;
+	z-index: -1;
+	top: 0px;
+	left: 0px;
+}
+#launch-title{
+	color: white;
+	margin: 150px 0px 40px 0px;
+	font-size: 5em;
+}
+#launch-motto{
+	width: 340px;
+    	text-align: center;
+    	color: #FFF;
+    	line-height: 40px;
+    	font-size: 1.5em;
+}
+
+#management-signup-btn{
+	width: 25%;
+	font-size: 2em;
+	background: #443ACB;
+	color: white;
+	border: 0px;
+	border-radius: 10px;
+	padding: 0.5%;
+}
+#management-signup-btn:hover{
+	color: gray;
+}
+#upper-region h5{
+	color: white;
+}
+#upper-region h5 a{
+	color: white;
+}
+#parallax-effect{
+	overflow-y: hidden;
+}
+#hand-phone{
+	width: 35%;
+	position: absolute;
+	bottom: -70%;
+	right: -35%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+/*css for the management popup signup window */
+
+#management-signup-window{
+	background: #ffffff;
+	border: 6px orange solid;
+	-webkit-border: 6px #CCAF0E solid;
+	-moz-border: 6px orange solid;
+	border-radius: 5%;
+	-webkit-border-radius: 5%;
+	-moz-border-radius: 5%;
+	display: none;
+	position: absolute;
+	z-index: 5;
+	top: 25%;
+	left: 27.5%;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+#close-window{
+	color: #808080;
+	font-weight: bolder;
+	float: right;
+	position: absolute;
+	right: 5%;
+	font-size: 2em;
+	top: 2.5%;
+	margin: 0%;
+	
+}
+#login-logo{
+	color: #443ACB;
+	font-size: 5em;
+	text-align: center;
+	margin: 2.5% 0%;
+	padding: 2.5% 0% 2.5% 0%;
+}
+#management-signup-window form{
+	display: block;
+	width: 75%;
+	margin: 0% 15% 0% 15%;
+}
+#management-signup-window input{
+	display: inline-block;
+	margin: 2.5% 0%;
+	padding-left: 2.5%;
+	width: 90%;
+	height: 50px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border: 1px solid black;
+	-webkit-border: 1px solid black;
+	-moz-border: 1px solid black;
+	font-size: 21px;
+}
+#management-login-submit{
+	margin: 0% auto;
+	width: 75%;
+	font-size: 2em;
+	background: #443ACB;
+	color: white;
+	border: 0px;
+	border-radius: 10px;
+	padding: 1.5%;
+}
+#management-signup-window h5{
+	color: orange;
+	margin: 7.5%;
+}
+#password-retrieval-link{
+	color: #443ACB !important;
+}
+
+#management-signup-link{
+	color: black !important;
+	margin-top: 15%;
+}
+/*css for the lower region of the management homepage */
+
+#lower-region{
+	overflow-y: hidden;
+	width: 100%;
+	position: absolute;
+	top: 100%;
+	background: rgb(255, 255, 255);
+	padding: 7.5% 2.5%;
+}
+#info-top-row{
+	width: 100%;
+	font-size: 0px;
+}
+#info-bottom-row{
+	width: 100%;
+	font-size: 0px;
+}
+.info-img-left{
+	display: inline-block;
+	width: 47.5%;
+	margin: 0%;
+}
+.info-img-left .top-region-background{
+	display: inline-block;
+	width: 25%;
+	border: 5px solid white;
+	-webkit-border: 5px solid white;
+	-moz-border: 5px solid white;
+}
+.info-img-left .bottom-region-background{
+	display: inline-block;
+	width: 25%;
+	border: 5px solid white;
+	-webkit-border: 5px solid white;
+	-moz-border: 5px solid white;
+}
+.info-img-right{
+	display: inline-block;
+	width: 47.5%;
+	margin: 0%;
+}
+.info-img-right .top-region-background{
+	display: inline-block;
+	width: 25%;
+	border: 5px solid white;
+	-webkit-border: 5px solid white;
+	-moz-border: 5px solid white;
+}
+.info-img-right .bottom-region-background{
+	display: inline-block;
+	width: 25%;
+	border: 5px solid white;
+	-webkit-border: 5px solid white;
+	-moz-border: 5px solid white;
+}
+.info-text{
+	display:inline-block;
+	width: 65%;
+	vertical-align: top;
+}
+#lower-region h3{
+	color: #443ACB;
+	vertical-align: top;
+	font-size: 19px !important;
+}
+#lower-region p{
+	color: black;
+	vertical-align: top;
+	font-size: 16px !important;
+}

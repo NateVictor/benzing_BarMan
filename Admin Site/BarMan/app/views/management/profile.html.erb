@@ -1,0 +1,48 @@
+<%= image_tag("taps.jpg", :id => 'upper-region-background')%>
+<div id="profile-side-menu">
+	<ul>
+		<li><%= link_to("Admin Home", {:controller => "management", :action => "home"})%></li>
+		<li>Update Information</li>
+		<li>Bar Photo(s)</li>
+		<li>Monitor Analytics</li>
+		<li>Access Promotional</li>
+	</ul>
+</div>
+<div id="profile-content-area">
+	<div id="nav-tabs">
+		<ul>
+			<li>Music</li>
+			<li>Games and Entertainment</li>
+			<li>Drinks and Drink Specials</li>
+		</ul>
+	</div>
+	<div id="profile-content">
+		<div class="content-type">
+			<form>
+				<label> Does your establishment have touchtunes?</label>
+					<input class="radio" name="touchtunes" type="radio">Yes <br>
+					<input class="radio" name="touchtunes" type="radio">No <br>				  <label>Does your establishment have live music?</label>
+					<input class="radio" name="liveMusic" type="radio">Yes <br>
+					<input class="radio" name="liveMusic" type="radio">No <br>
+				<label>Does your establishment have Karaoke?</label>
+					<input class="radio" name="karaoke" type="radio">Yes <br>				  
+					<input class="radio" name="karaoke" type="radio">No <br>					<button class="submit-updates" type= "submit">Save Updates</button>
+			</form>
+		</div>
+		<div class="content-type">
+			<form>
+				<label>Please, Check the box for the Specials your establishment Provides.</label>
+				<input class="checkbox" label="Bucket Special" type="checkbox">
+				<input class="checkbox" label="Mug Night" type="checkbox">
+				<input class="checkbox" label="Happy Hour" type="checkbox">
+				<input class="checkbox" label="Beer Special" type="checkbox">
+				<input class="checkbox" label="Liquor Special" type="checkbox">
+				<button class="submit-updates" type= "submit">Save Updates</button>
+			</form>
+		</div>
+		<div class="content-type">
+		</div>
+		<div class="content-type">
+		</div>
+	</div>
+</div>

@@ -1,0 +1,123 @@
+/*The background image css is located in the management-home.css file labeled as "#upper-region-background-css*/
+
+/*Veritcal Side Menu*/
+#profile-side-menu{
+	display: inline-block;
+  	width: 25%;
+	height: 100%;
+  	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	background: black;
+}
+#profile-side-menu ul{
+	list-style-type: none;
+	margin: 0%;
+	padding: 0%;
+}
+#profile-side-menu ul li{
+	padding: 7.5% 6%;
+	color: white;
+	font-size: 1.25em;
+	border-top: white 1px solid;
+  	border-bottom: white 1px solid;
+}
+#profile-side-menu ul li a{
+	color: white;
+	text-decoration: none;
+}
+ #profile-side-menu li:hover {
+	background: rgba(255, 255, 255, .5) !important; 
+}
+
+/*Profile Content Area*/
+#profile-content-area{
+	display: inline-block;
+	padding: 2.5%;
+ 	width: 67.5%;
+	vertical-align: top;
+}
+#nav-tabs{
+	background: gray;
+	border: 1px solid orange;
+  	border-top-left-radius: 15px;
+  	border-top-right-radius: 15px;
+	-webkit-border: 1px solid orange;
+  	-webkit-border-top-left-radius: 15px;
+  	-webkit-border-top-right-radius: 15px;
+	-moz-border: 1px solid orange;
+  	-moz-border-top-left-radius: 15px;
+  	-moz-border-top-right-radius: 15px;
+}
+#nav-tabs ul{
+	padding: 2%;
+}
+#nav-tabs ul li{
+	display: inline;
+	background: darkgray;
+	padding: 2%;
+	border: 1px solid black;
+	box-shadow: inset 0px 0px 5px black;
+	-webkit-box-shadow: inset 0px 0px 5px black;
+	-moz-box-shadow: inset 0px 0px 5px black;
+}
+#nav-tabs ul li:hover {
+	color: lightblue !important;
+	box-shadow: inset 0px 0px 0px black;
+	-webkit-box-shadow: inset 0px 0px 0px black;
+	-moz-box-shadow: inset 0px 0px 0px black;
+}
+
+
+/*Templates for the content of each subcategory, forms, prompts, etc.*/
+#profile-content{
+	color: lightblue;
+	font-weight: bolder;
+	line-height: 1.5em;
+	background: rgba(0, 0, 0, .75);
+	border: 1px solid orange;
+	-webkit-border: 1px solid orange;
+	-moz-border: 1px solid orange;
+}
+.content-type{
+	display: none;
+	padding: 2.5%;
+}
+.content-type form{}
+.content-type label{
+	display: block;
+	line-height: 2em;
+	margin: 4% 0% 0.5% 0%;
+	color: rgb(73, 73, 255);
+}
+.content-type .radio{
+	display: inline-block;
+	margin: 1% 0%;
+}
+.content-type .submit-updates{
+	-webkit-appearance: button;
+	cursor: pointer;
+	color: blue;
+	text-shadow: black 1px 1px 2.5px;
+	-webkit-text-shadow: black 1px 1px 2.5px;
+	-moz-text-shadow: black 1px 1px 2.5px;
+	border-radius: 5px;
+	background: lightgray;
+	-webkit-box-shadow: inset 0px 0px 60px rgb(197, 127, 0);
+	box-shadow: inset 0px 0px 60px rgb(197, 127, 0);
+	-moz-box-shadow: inset 0px 0px 60px rgb(197, 127, 0);
+	margin: 5.5% 0%;
+	font-size: 1.5em;
+	padding: 1.5%;
+}
+.content-type .submit-updates:hover {
+	-webkit-box-shadow: 0px 0px 20px white !important;
+	box-shadow: 0px 0px 20px white !important;
+	-moz-box-shadow: 0px 0px 20px white !important;
+}
+.content-type .checkbox{
+	display: block;
+	margin: 1% 0%;
+}
+
+li a{

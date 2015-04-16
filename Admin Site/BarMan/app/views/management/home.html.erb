@@ -1,0 +1,60 @@
+<div id ="event-overlay"></div>
+<div id = "wrapper">
+	<div id = "upper-region">
+		<%= image_tag("taps.jpg", :id => 'upper-region-background')%>
+		<h1 id= "launch-title">BarMan</h1>
+		<h3 id= "launch-motto">Share the glory of your bar with thirsty patrons.</h3>
+		<%= button_tag('Sign up now',{:id => 'management-signup-btn', :onclick => 'loginWindowFunc()'})%>
+		<h5>Already a member? <%= link_to("Sign in.", {:controller => 'management', :action => 'login'}) %></h5>
+		<div id ="management-signup-window">
+			<h3 id ="close-window" onClick="closeManagementLogin()">x</h3>
+			<h1 id= "login-logo">BarMan</h1>
+			<form>
+				<input type= "text" placeholder= "Username">
+				<input type= "password" placeholder= "Password">
+				<%= button_tag('Sign up now',{:id => 'management-login-submit'})%>
+				<h5>Forgot your password? <%= link_to("Click here.", {:controller => 'management', :action => 'login'}, {:id => 'password-retrieval-link'})%>
+				</h5>
+				<h3 id="management-signup-link">Not a member? <%= link_to('Signup Now!', {:controller => 'management', :action => 'login'})%>
+				</h3>
+			</form>
+		</div>
+		<div id= "parallax-effect">
+		<%= image_tag('hand-phone.png', {:id => 'hand-phone'})%>
+		</div>
+	</div>
+	<div id = "lower-region">
+		<div id = "info-top-row">
+			<div class = "info-img-left" style= "border-bottom: 3px solid black; border-right: 1.5px solid black;">
+				<%= image_tag("user-icon.jpg", :class => 'top-region-background')%>
+				<div class ="info-text">
+					<h3>Manage Your Profile</h3>
+					<p>You will have full access and control of your bar profile. Include all your bar has to offer to entice new customers from beer selection to gaming.</p>	
+				</div>
+			</div>
+			<div class = "info-img-right" style= "border-bottom: 3px solid black; border-left: 1.5px solid black;">
+				<%= image_tag("graph-icon.jpg", :class => 'top-region-background')%>
+				<div class ="info-text">
+					<h3>Track Analytics</h3>
+					<p>You will have full access and control of your bar profile. Include all your bar has to offer to entice new customers from beer selection to gaming.</p>
+				</div>
+			</div>
+		</div>
+		<div id = "info-bottom-row">
+			<div class = "info-img-left" style= "border-right: 1.5px solid black;">
+				<%= image_tag("people-icon.jpg", :class => 'bottom-region-background')%>
+				<div class ="info-text">
+					<h3>Advertise to New Customers</h3>
+					<p>You will have full access and control of your bar profile. Include all your bar has to offer to entice new customers from beer selection to gaming.</p>
+				</div>
+			</div>
+			<div class = "info-img-right" style= "border-left: 1.5px solid black;">
+				<%= image_tag("feedback-icon.jpg", :class => 'bottom-region-background')%>
+				<div class ="info-text">
+					<h3>Get Feedback</h3>
+					<p>You will have full access and control of your bar profile. Include all your bar has to offer to entice new customers from beer selection to gaming.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
